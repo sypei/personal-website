@@ -16,13 +16,20 @@
 			body {
 				  font-family: Roboto, serif  !important;
 				}
-			h3,h4 {
+			h3,h4,.h3,.h4 {
 			  font-family: Josefin Sans, serif  !important;
 			  font-weight: bold;
 				}
 		.strong {
-		            color: #2774AE;
+		            color: #F2A900;
+		            font-weight: bold;
 		        }
+		.mini-header, .title_name, .email, .fa {
+					color:#2D68C4; /*ucla blue*/
+				}
+		.navigator, .navigator a,.fa-trophy{
+					color: #F2A900; /*ucla yellow*/
+		}
 		</style>
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@700" rel="stylesheet">
 
@@ -50,22 +57,25 @@
 				<BR><BR><BR>
 			</div>
 
-		 <div class="row">
+		 	<div class="row">
 		      		<div class="col-xs-12 col-sm-12 col-md-5  col-md-offset-2 col-lg-5 col-lg-offset-2 line">		      		
 		      		
-						<a class="title_name" href="index.html" style="font-family: 'Josefin Sans';">Siyou Pei</a>				
+						<a class="title_name" href="index.html" style="font-family: 'Josefin Sans'">Siyou Pei</a>				
 						<BR>
-						<span style="font-size: 20px;font-family: 'Josefin Sans';">
+						<span class = "navigator" style="font-size: 20px;font-family: 'Josefin Sans';">
 			        			<a href="aboutme.html">About Me</a> - 
-			        			<a href="code.html">CV</a> - 
+			        			<a href="">CV</a> - 
 			        			<a href="https://hilab.dev">HiLab</a>
 			        	</span>
-			        	<br><br>
+			        	<br>
+			        	<br>
+			        	<img src="img/bruin.png"  class="img-responsive"  width=100>
 						<a href="https://twitter.com/SiyouPei" class="fa fa-twitter"></a>
 						<a href="https://github.com/sypei"  class="fa fa-github"></a>
-						<a href="https://scholar.google.be/citations?user=WZd4DYAAAAAJ&hl=en" class="fa fa-graduation-cap"></a><br>
-						sypei at ucla dot edu
-					<BR>
+						<a href="https://scholar.google.be/citations?user=WZd4DYAAAAAJ&hl=en" class="fa fa-graduation-cap"></a>
+						<p class='email'><b>sypei @ ucla dot edu</b></p>
+
+						<BR>
 
 			      		<!-- <P>
 			      		AR/VR enthusiast<BR>HCI researcher<BR>Ph.D. student @<a href="https://hilab.dev">HiLab</a><BR>
@@ -80,8 +90,8 @@
 					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 line">
 		        		<img src="img/Siyou_table2.jpg"  class="img-responsive"  width=600>
 		      		</div>
-		</div>
-		    	 </div>
+			</div>
+
 		</div>
 		
 		<div class="container-fluid">
@@ -92,7 +102,7 @@
 			  		<BR>
 				  	<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pubbody"> 
-							<span class="mini-header" id="projects" style="font-family: 'Josefin Sans';">
+							<span class="mini-header" id="projects" style="font-family: 'Josefin Sans'">
 								Research</span>
 							</div>
 					</div>
@@ -154,8 +164,8 @@
 									 AURITUS is an extendable and open-source optimization toolkit designed to enhance and replicate earable applications. AURITUS handles data collection, pre-processing, and labeling tasks using graphical tools and provides a hardware-in-the-loop (HIL) optimizer and TinyML interface to develop lightweight and real-time machine-learning models for activity detection and filters for head-pose tracking.
 		                        </p>
 		                        <a href="research/AURITUS/imwut21_AURITUS.pdf" target="_blank" class="fa fa-book" aria-hidden="true"></a>&nbsp
-		                        <a href="" target="_blank" class="fa fa-youtube-play" aria-hidden="true"></a>&nbsp
-		                        <a href="" target="_blank" class="fa fa-microphone" aria-hidden="true"></a>
+		                        <!-- <a href="" target="_blank" class="fa fa-youtube-play" aria-hidden="true"></a>&nbsp
+		                        <a href="" target="_blank" class="fa fa-microphone" aria-hidden="true"></a> -->
 		                    </div>
 							
 							<div class="col-md-12"> 
@@ -223,12 +233,9 @@
 					
 					
 					<BR>
-					<span class="mini-header">
-						<h3>Tweets By @SiyouPei</h3>
-					</span>
 					<a class="twitter-timeline" 
 					width="600"
-					height="1000"
+					height="900"
 					data-chrome="nofooter noheader noborder transparent"
 					data-border-color="#ffffff"
 					href="https://twitter.com/SiyouPei" 
@@ -243,7 +250,7 @@
 		</div>
 
 		<BR>
-		<small>This site built by &copy; Amy X. Zhang, <a href="https://github.com/amyxzhang/personal_website">github code here</a>.</small>
+		<small>&copy; Siyou Pei, <a href="https://github.com/sypei/personal_website">Source Code</a>.</small>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
 	</body>
